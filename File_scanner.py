@@ -10,7 +10,7 @@ import pandas as pd
 import sys
 
 #create an API client with your API key first
-client=vt.Client("1cdb47b6e58099f9ee5e294dfcba240e73b959be4c433f5dab09a7a177be4aa3")
+client=vt.Client("YOUR_API_KEY")
 
 #reading the input file given by the user as argument
 input_file = sys.argv[1]
